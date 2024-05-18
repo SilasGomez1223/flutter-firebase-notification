@@ -21,7 +21,7 @@ app.use(express.static(__dirname));
 
 const FCM_URL = "https://fcm.googleapis.com/fcm/send";
 const SERVER_KEY =
-  "AAAAKycZtEY:APA91bGnv-PstKB--pFPxqL9HCLigj9Y0DeFeJGIyd_CXkjmMas7xDw-ICV3YzfrfKDCRgjs17PdZvnFvDwdofGWUFY188-Z7Sv_QotPTeInB93KNunAMwcJDQHeQKpBkV5I0J3cnKDG";
+  "YOUR SERVER KEY";
 
 // API Endpoint to handle push notification
 app.post("/send-notification", async (req, res) => {
